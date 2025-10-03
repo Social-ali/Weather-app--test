@@ -48,6 +48,8 @@ robot tests/
 
  Screenshots
 
+<img width="927" height="781" alt="k1" src="https://github.com/user-attachments/assets/342d4392-bf90-453a-9d8b-7b68d7795f98" />
+<img width="1097" height="342" alt="k2" src="https://github.com/user-attachments/assets/faac0199-2e49-419c-a400-5aea0b49c4e6" />
 
 
 
