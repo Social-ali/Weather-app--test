@@ -46,14 +46,14 @@ npm run dev
 4. Run automated tests
 robot tests/
 
-📸 Screenshots
+ Screenshots
 
-<img width="1097" height="342" alt="k2" src="https://github.com/user-attachments/assets/c0f61129-a840-4628-b459-83c972ae0099" />
-<img width="927" height="781" alt="k1" src="https://github.com/user-attachments/assets/6dee2c30-347f-4e0f-b399-70c0140d1d8d" />
+
+
 
 Add app screenshots or demo GIFs here to showcase the UI.
 
-🤝 Contributing
+Contributing
 
 Contributions are welcome.
 
