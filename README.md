@@ -1,116 +1,71 @@
-
-```markdown
 # 🌦️ Weather App
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Social-ali/Weather-app--test?color=blue)
-![GitHub stars](https://img.shields.io/github/stars/Social-ali/Weather-app--test?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Social-ali/Weather-app--test?style=social)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![React](https://img.shields.io/badge/React-18-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
-![Robot Framework](https://img.shields.io/badge/Tested%20with-Robot%20Framework-red?logo=python)
+A modern **Weather Application** built with **React.js** and **TypeScript**, delivering real-time weather updates with a responsive and intuitive UI.  
+The project includes **test automation using Robot Framework**, ensuring functionality, reliability, and performance.
 
 ---
 
-A **Weather Application** built with **React.js** and **TypeScript**, designed to provide real-time weather updates in a clean and responsive interface.  
-This project also includes **automated testing with Robot Framework**, ensuring performance, load, and functional reliability.
+## 📌 Features
+- 🌍 Real-time weather data search by city  
+- 📱 Responsive and mobile-friendly interface  
+- ⚛️ Built with **React.js + TypeScript**  
+- ✅ Automated testing with **Robot Framework**  
+- 🛠️ Clean, modular, and scalable codebase  
 
 ---
 
-## 🚀 Features
-- 🌍 Real-time weather data by city
-- 📱 Responsive and modern UI
-- ⚡ Built with **React.js + TypeScript**
-- ✅ Automated tests with **Robot Framework**
-- 🛠️ Easy setup & clean codebase
-
----
-
-## 🛠️ Tech Stack
-- **Frontend:** React.js, TypeScript, CSS
-- **Testing:** Robot Framework
-- **Build Tool:** Vite / Webpack
-- **Version Control:** Git & GitHub
+## 🛠 Tech Stack
+- **Frontend:** React.js, TypeScript, CSS  
+- **Testing:** Robot Framework  
+- **Build Tool:** Vite / Webpack  
+- **Version Control:** Git & GitHub  
 
 ---
 
 ## 📂 Project Structure
-```
-
+```bash
 Weather-app--test/
 ├── src/                # React.js + TypeScript source code
 ├── tests/              # Robot Framework test cases
 ├── public/             # Static assets
 ├── package.json        # Dependencies & scripts
-├── tsconfig.json       # TypeScript config
+├── tsconfig.json       # TypeScript configuration
 └── README.md           # Documentation
 
-````
-
----
-
-## ⚡ Getting Started
-
-### 1. Clone the repo
-```bash
+🚀 Getting Started
+1. Clone the repository
 git clone https://github.com/Social-ali/Weather-app--test.git
 cd Weather-app--test
-````
 
-### 2. Install dependencies
-
-```bash
+2. Install dependencies
 npm install
-```
 
-### 3. Run the development server
-
-```bash
+3. Run the development server
 npm run dev
-```
 
-### 4. Run tests (Robot Framework)
-
-Make sure **Robot Framework** is installed, then run:
-
-```bash
+4. Run automated tests
 robot tests/
-```
 
----
+📸 Screenshots
 
-## 📸 Screenshots
+<img width="1097" height="342" alt="k2" src="https://github.com/user-attachments/assets/c0f61129-a840-4628-b459-83c972ae0099" />
+<img width="927" height="781" alt="k1" src="https://github.com/user-attachments/assets/6dee2c30-347f-4e0f-b399-70c0140d1d8d" />
 
-> (Add some screenshots of your app UI here)
+Add app screenshots or demo GIFs here to showcase the UI.
 
----
+🤝 Contributing
 
-## 🤝 Contributing
+Contributions are welcome.
 
-Pull requests are welcome!
-For major changes, open an issue first to discuss what you’d like to improve.
+Fork the repository
 
----
+Create a new branch (feature/your-feature)
 
-## 📜 License
+Commit and push changes
 
-This project is licensed under the [MIT License](LICENSE).
+Open a Pull Request
 
----
+📜 License
 
-## 👨‍💻 Author
+This project is licensed under the MIT License.
 
-**Ali Jafri**
-🔗 [GitHub Profile](https://github.com/Social-ali)
-🔗 [LinkedIn](https://www.linkedin.com/in/ali-ameer-a2aa21254/)
-
----
-
-✨ Built with passion using **React.js + TypeScript** and tested with **Robot Framework**.
-
-```
-
----
-
-Do you also want me to **generate a LICENSE file (MIT)** for you so you can include it in the repo along with this README?
-```
