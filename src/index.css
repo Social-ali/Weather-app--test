@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 100% 97%;
+    --foreground: 220 40% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 20%;
+
+    --primary: 220 70% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 60% 90%;
+    --secondary-foreground: 220 40% 20%;
+
+    --muted: 210 40% 92%;
+    --muted-foreground: 220 20% 50%;
+
+    --accent: 250 60% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 30% 85%;
+    --input: 220 30% 90%;
+    --ring: 220 70% 55%;
+
+    --radius: 0.75rem;
+
+    /* Weather app specific tokens */
+    --sky-gradient-start: 220 80% 60%;
+    --sky-gradient-end: 250 70% 70%;
+    --glass-bg: 0 0% 100%;
+    --glass-border: 220 30% 85%;
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 220 40% 12%;
+    --foreground: 210 40% 95%;
+
+    --card: 220 35% 15%;
+    --card-foreground: 210 40% 95%;
+
+    --popover: 220 35% 15%;
+    --popover-foreground: 210 40% 95%;
+
+    --primary: 220 70% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 30% 22%;
+    --secondary-foreground: 210 40% 95%;
+
+    --muted: 220 30% 20%;
+    --muted-foreground: 220 20% 60%;
+
+    --accent: 250 60% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 30% 25%;
+    --input: 220 30% 20%;
+    --ring: 220 70% 60%;
+
+    --sky-gradient-start: 220 60% 25%;
+    --sky-gradient-end: 250 50% 35%;
+    --glass-bg: 220 35% 18%;
+    --glass-border: 220 30% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
