@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
 
-## Project info
+```markdown
+# 🌦️ Weather App
 
-**URL**: https://lovable.dev/projects/e0663b29-aace-4de4-8251-7e27c3670963
+![GitHub repo size](https://img.shields.io/github/repo-size/Social-ali/Weather-app--test?color=blue)
+![GitHub stars](https://img.shields.io/github/stars/Social-ali/Weather-app--test?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Social-ali/Weather-app--test?style=social)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Robot Framework](https://img.shields.io/badge/Tested%20with-Robot%20Framework-red?logo=python)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+A **Weather Application** built with **React.js** and **TypeScript**, designed to provide real-time weather updates in a clean and responsive interface.  
+This project also includes **automated testing with Robot Framework**, ensuring performance, load, and functional reliability.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e0663b29-aace-4de4-8251-7e27c3670963) and start prompting.
+## 🚀 Features
+- 🌍 Real-time weather data by city
+- 📱 Responsive and modern UI
+- ⚡ Built with **React.js + TypeScript**
+- ✅ Automated tests with **Robot Framework**
+- 🛠️ Easy setup & clean codebase
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
+- **Frontend:** React.js, TypeScript, CSS
+- **Testing:** Robot Framework
+- **Build Tool:** Vite / Webpack
+- **Version Control:** Git & GitHub
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Project Structure
+```
 
-Follow these steps:
+Weather-app--test/
+├── src/                # React.js + TypeScript source code
+├── tests/              # Robot Framework test cases
+├── public/             # Static assets
+├── package.json        # Dependencies & scripts
+├── tsconfig.json       # TypeScript config
+└── README.md           # Documentation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+````
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚡ Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 1. Clone the repo
+```bash
+git clone https://github.com/Social-ali/Weather-app--test.git
+cd Weather-app--test
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 4. Run tests (Robot Framework)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make sure **Robot Framework** is installed, then run:
 
-**Use GitHub Codespaces**
+```bash
+robot tests/
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📸 Screenshots
 
-This project is built with:
+> (Add some screenshots of your app UI here)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/e0663b29-aace-4de4-8251-7e27c3670963) and click on Share -> Publish.
+Pull requests are welcome!
+For major changes, open an issue first to discuss what you’d like to improve.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📜 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the [MIT License](LICENSE).
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 👨‍💻 Author
+
+**Ali Jafri**
+🔗 [GitHub Profile](https://github.com/Social-ali)
+🔗 [LinkedIn](https://www.linkedin.com/in/ali-ameer-a2aa21254/)
+
+---
+
+✨ Built with passion using **React.js + TypeScript** and tested with **Robot Framework**.
+
+```
+
+---
+
+Do you also want me to **generate a LICENSE file (MIT)** for you so you can include it in the repo along with this README?
+```
